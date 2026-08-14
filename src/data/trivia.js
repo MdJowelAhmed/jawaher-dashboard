@@ -1,0 +1,17 @@
+export const triviaQuestions = [
+  { id: 'q_001', question: 'Which planet is known as the Red Planet?', categoryId: 'cat_002', difficulty: 'easy', answer: 'Mars', status: 'published', createdAt: '2025-11-08T10:00:00.000Z' },
+  { id: 'q_002', question: 'What is the capital of France?', categoryId: 'cat_003', difficulty: 'easy', answer: 'Paris', status: 'published', createdAt: '2025-11-08T10:12:00.000Z' },
+  { id: 'q_003', question: 'Who wrote Romeo and Juliet?', categoryId: 'cat_007', difficulty: 'medium', answer: 'William Shakespeare', status: 'published', createdAt: '2025-11-12T09:40:00.000Z' },
+  { id: 'q_004', question: 'How many continents are there on Earth?', categoryId: 'cat_003', difficulty: 'easy', answer: '7', status: 'published', createdAt: '2025-11-15T14:22:00.000Z' },
+  { id: 'q_005', question: 'What is the chemical symbol for gold?', categoryId: 'cat_002', difficulty: 'medium', answer: 'Au', status: 'published', createdAt: '2025-12-01T11:05:00.000Z' },
+  { id: 'q_006', question: 'In which year was the United Arab Emirates founded?', categoryId: 'cat_004', difficulty: 'medium', answer: '1971', status: 'published', createdAt: '2025-12-04T16:18:00.000Z' },
+  { id: 'q_007', question: 'Which animal is the fastest land animal?', categoryId: 'cat_006', difficulty: 'easy', answer: 'Cheetah', status: 'published', createdAt: '2025-12-18T08:50:00.000Z' },
+  { id: 'q_008', question: 'How many players are on a football (soccer) team on the field?', categoryId: 'cat_005', difficulty: 'easy', answer: '11', status: 'published', createdAt: '2026-01-06T12:30:00.000Z' },
+  { id: 'q_009', question: 'What is the largest ocean on Earth?', categoryId: 'cat_001', difficulty: 'easy', answer: 'Pacific Ocean', status: 'published', createdAt: '2026-01-20T09:14:00.000Z' },
+  { id: 'q_010', question: 'Who painted the Mona Lisa?', categoryId: 'cat_007', difficulty: 'medium', answer: 'Leonardo da Vinci', status: 'published', createdAt: '2026-02-02T15:44:00.000Z' },
+  { id: 'q_011', question: 'What gas do plants absorb from the atmosphere?', categoryId: 'cat_002', difficulty: 'easy', answer: 'Carbon dioxide', status: 'published', createdAt: '2026-02-18T10:09:00.000Z' },
+  { id: 'q_012', question: 'Which country hosted the FIFA World Cup in 2022?', categoryId: 'cat_005', difficulty: 'easy', answer: 'Qatar', status: 'published', createdAt: '2026-03-03T13:27:00.000Z' },
+  { id: 'q_013', question: 'Which of these is a primary color?', categoryId: 'cat_001', difficulty: 'easy', answer: 'Blue', status: 'draft', createdAt: '2026-07-22T09:00:00.000Z' },
+  { id: 'q_014', question: 'What is the tallest mountain in the world?', categoryId: 'cat_001', difficulty: 'medium', answer: 'Mount Everest', status: 'published', createdAt: '2026-04-11T11:36:00.000Z' },
+  { id: 'q_015', question: 'Which instrument has 88 keys?', categoryId: 'cat_001', difficulty: 'hard', answer: 'Piano', status: 'archived', createdAt: '2026-05-09T17:02:00.000Z' },
+]
