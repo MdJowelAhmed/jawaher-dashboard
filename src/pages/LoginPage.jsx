@@ -80,7 +80,11 @@ export function LoginPage() {
             </div>
             <Button type="submit" className="w-full" disabled={submitting}>{submitting ? 'Signing in…' : 'Sign In'}</Button>
           </form>
-          <p className="mt-6 rounded-xl bg-canvas px-3 py-2 text-xs text-ink-muted">Demo access: {DEMO_CREDENTIALS.email} / {DEMO_CREDENTIALS.password}</p>
+          <p className="mt-6 rounded-xl bg-canvas px-3 py-2 text-xs text-ink-muted">Demo access: {DEMO_CREDENTIALS.email} 
+            <p>
+              Password: {DEMO_CREDENTIALS.password}
+            </p>
+          </p>
         </div>
       </main>
     </div>
